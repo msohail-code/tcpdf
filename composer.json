@@ -1,0 +1,14 @@
+{
+  "name": "pdf/pdf",
+  "authors": [
+      {
+          "name": "Shahzad Hussain",
+          "email": "dev@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/composer": "^1.10",
+        "tecnickcom/tcpdf": "^6.3"
+    }
+}
+

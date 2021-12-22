@@ -1,0 +1,79 @@
+<style>
+  table.table_to_show tr td {
+    border-collapse: collapse;
+    border-spacing: 2;
+    border: 0.5px solid black;
+  }
+  
+  td.hd-bold-head {
+    width: 23.5%;
+  }
+  td.hd-bold-head.bottom {
+    height: 40px;
+  }
+  .table_to_show{
+    width: 100%; 
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 60px; 
+  }
+   table.collapse{
+    border-collapse: collapse;
+    border-spacing: 12;
+    width: 100%;
+  }
+  td.hd-bold-head{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+  }
+
+</style>
+<table style="width:100%" border="1">
+  <tr>
+    <td style="width: 295px; position: relative;font-weight: bold;">Tipo documento <br>
+      <span style="font-family: courier_new;font-size: 10px;">{{ inform }}</span>
+    </td>
+    <td style="width: 185px;" >
+      <table style="width:100%;">
+        <tr>
+          <td style="font-weight: bold;">CIG:</td>
+        </tr>
+
+        <tr>
+          <td  style="font-weight: bold;">CUP:</td>
+        </tr>
+      </table>
+    </td>
+    <td style="width: 90px; background-color: #dedede;">Nr. documento <br><span style="font-family: courier_new;font-size: 10px;">{{ count }}</span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 480px; position: relative;font-weight: bold;">Causale del trasporto <br><span style="font-family: courier_new;font-size: 10px;" colspan="2">Vandita</span></td>
+    
+    <td style="width: 90px; background-color: #dedede; ">Data documento <br><span style="font-family: courier_new;font-size: 10px;">22/11/21</span>
+    </td>
+  </tr>
+  <tr>
+    <!-- <td style="width: 480px; position: relative;font-weight: bold;">Consegna / porto </td> -->
+    <td style="width: 480px; position: relative;font-weight: bold;">
+      <table style="width:100%;">
+        <tr>
+          <td style="width: 360px; position: relative;font-weight: bold;">Consegna / porto </td>
+          <td style="width: 60px; position: relative;font-weight: bold;">ABI</td>
+          <td style="width: 60px; position: relative;font-weight: bold;">CAB</td>
+
+        </tr>
+      </table>
+    </td>
+    <td style="width: 90px; background-color: #dedede; ">Pagina <br><span style="font-family: courier_new;font-size: 10px;">1</span>
+    </td>
+  </tr>
+
+</table>
+
